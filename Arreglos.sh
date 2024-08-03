@@ -1,7 +1,7 @@
 #!/bin/bash
 
 numeros=(1 3 5 87)
-nombres=(Luisa Jeny Miguel Luis "Rosa Perlta")
+nombres=(Luisa Jeny Miguel Luis "Rosa Peralta")
 rangos=({A..Z} {1..20})
 
 echo "--- Valores de los arreglos ---"

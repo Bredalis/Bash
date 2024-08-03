@@ -3,14 +3,9 @@
 
 numeros=(1 2 3 5 6)
 
-for num in ${numeros[*]}; 
-do 
-    echo "Numero: $num"
-done
-
-for ((i=0; i<${numeros[*]}; i++))
+for ((i=0; i<${#numeros[*]}; i++))
 do
-    echo "Numero: ${numeros[i]}"
+    echo "Numero: ${numeros[$i]}"
 done
 
 # Mestra una lista de los archivos
