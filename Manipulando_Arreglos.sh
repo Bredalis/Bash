@@ -1,7 +1,6 @@
 #!/bin/bash
 
 numeros=(1 2 3 4 5)
-nombres=(Juan Pedro Maria "Juan de la Roza")
 
 echo "--- Eliminar un elemento ---"
 unset numeros[0]
