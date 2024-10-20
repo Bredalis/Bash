@@ -1,17 +1,19 @@
 #!/bin/bash
 
+# Declarar un arreglo con 5 elementos
 numeros=(1 2 3 4 5)
 
-echo "--- Arreglo ---"
-echo ${numeros[*]}
+echo "--- Mostrar todos los elementos del arreglo ---"
+echo "${numeros[*]}"
 
-echo -e "\n--- Eliminar un elemento ---"
+# Eliminar el primer elemento (índice 0)
 unset numeros[0]
-echo ${numeros[*]}
 
-echo -e "\n--- Arreglo ---"
-echo ${numeros[*]}
+echo -e "\n--- Mostrar el arreglo después de eliminar el primer elemento ---"
+echo "${numeros[*]}"
 
-echo -e "\n--- Agregar elemento ---"
+# Agregar el elemento 1 nuevamente a la posición 0
 numeros[0]=1
-echo ${numeros[*]}
+
+echo -e "\n--- Mostrar el arreglo actualizado (Se le agrego un 1 en la posición 0) ---"
+echo "${numeros[*]}"

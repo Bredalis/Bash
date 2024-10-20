@@ -1,6 +1,6 @@
 #!/bin/bash
-# Variables con parametros
+# Variables con parámetros
 
-nombre=$1
+nombre="$1"
 
 echo "Mi nombre es $nombre"
