@@ -24,4 +24,4 @@ if ! [[ "$numero1" =~ ^-?[0-9]+$ && "$numero2" =~ ^-?[0-9]+$ ]]; then
     exit 1
 fi
 
-suma $numero1 $numero2
+suma "$numero1" "$numero2"
