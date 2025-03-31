@@ -15,5 +15,5 @@ echo "${numeros[*]}"
 # Agregar el elemento 1 nuevamente a la posición 0
 numeros[0]=1
 
-echo -e "\n--- Mostrar el arreglo actualizado (Se le agrego un 1 en la posición 0) ---"
+echo -e "\n--- Mostrar el arreglo actualizado (Se le agregó un 1 en la posición 0) ---"
 echo "${numeros[*]}"

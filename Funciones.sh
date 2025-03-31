@@ -13,10 +13,10 @@ suma () {
 }
 
 # Obtener parámetros de entrada para la función
-echo "--- Ingrese 2 números para sumarlos ---"
+echo -e "\n--- Ingrese 2 números para sumarlos ---"
 
-read -p "Número 1:" numero1 
-read -p "Número 2:" numero2
+read -p "Número 1: " numero1 
+read -p "Número 2: " numero2
 
 # Revisar si las entradas sean números
 if ! [[ "$numero1" =~ ^-?[0-9]+$ && "$numero2" =~ ^-?[0-9]+$ ]]; then

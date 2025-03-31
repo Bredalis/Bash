@@ -1,4 +1,4 @@
-#!bin/bash
+#!/bin/bash
 # Importar módulos
 
 source Variables.sh
